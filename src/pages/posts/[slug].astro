@@ -141,13 +141,6 @@ if (postData.tags && postData.tags.length > 0) {
       </section>
     ) : null
   }
-  {
-    siteConfig.giscus && (
-      <section>
-        <DividerText text="Comments" />
-        <GiscusLoader />
-      </section>
-    )
-  }
+
   <ScrollUpButton />
 </Layout>
