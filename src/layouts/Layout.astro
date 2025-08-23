@@ -7,6 +7,7 @@ import SelectThemeLoader from '~/components/SelectThemeLoader.astro'
 import siteConfig from '~/site.config'
 import { pick, resolveThemeColorStyles } from '~/utils'
 import crypto from 'crypto'
+import SakanaWidget from '~/components/SakanaWidget.astro'
 
 interface Props {
   title?: string
@@ -139,6 +140,7 @@ let generatedCss: string = cssLines.join('\n')
     <meta name="twitter:description" content={pageDescription} />
     {pageImage && <meta name="twitter:image" content={pageImage} />}
     <meta name="keywords" content={pageKeywords} />
+    <SakanaWidget character="takina" />
     <link rel="canonical" href={pageUrl} />
     <link rel="sitemap" href="/sitemap-index.xml" />
     <link rel="icon" href="/favicon.webp" type="image/webp" />
