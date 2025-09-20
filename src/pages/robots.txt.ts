@@ -5,6 +5,7 @@ User-agent: *
 Allow: /
 
 Sitemap: ${sitemapURL.href}
+Disallow: /posts/images/*
 `
 
 export const GET: APIRoute = ({ site }) => {
