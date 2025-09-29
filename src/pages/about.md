@@ -26,6 +26,6 @@ published: 2007-12-14
 
 **[SCINT](https://scint.org) 行政組 & 資安計劃負責人** *2025-Present*
 
-**[THJCC CTF 3nd](https://thjcc.scint.org) 總召** *2025-Present*
+**[THJCC CTF 3rd](https://thjcc.scint.org) 總召** *2025-Present*
 
 ~~比賽太多懶得寫~~
