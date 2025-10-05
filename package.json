@@ -12,8 +12,8 @@
     "format": "prettier --write ."
   },
   "dependencies": {
-    "@astrojs/markdown-remark": "^6.3.6",
-    "@astrojs/mdx": "^4.3.5",
+    "@astrojs/markdown-remark": "^6.3.7",
+    "@astrojs/mdx": "^4.3.6",
     "@astrojs/rss": "^4.0.12",
     "@astrojs/sitemap": "^3.6.0",
     "@astrojs/ts-plugin": "^1.10.4",
@@ -23,11 +23,11 @@
     "@fontsource-variable/jetbrains-mono": "^5.2.8",
     "@pagefind/default-ui": "^1.4.0",
     "@resvg/resvg-js": "^2.6.2",
-    "@tailwindcss/vite": "^4.1.13",
+    "@tailwindcss/vite": "^4.1.14",
     "@types/hast": "^3.0.4",
-    "@types/react": "^19.1.13",
-    "@types/react-dom": "^19.1.9",
-    "astro": "^5.13.9",
+    "@types/react": "^19.2.0",
+    "@types/react-dom": "^19.2.0",
+    "astro": "^5.14.1",
     "astro-expressive-code": "^0.41.3",
     "color": "^5.0.2",
     "date-fns": "^4.1.0",
@@ -53,8 +53,8 @@
     "satori": "^0.15.2",
     "satori-html": "^0.3.2",
     "sharp": "^0.34.4",
-    "tailwindcss": "^4.1.13",
-    "typescript": "^5.9.2",
+    "tailwindcss": "^4.1.14",
+    "typescript": "^5.9.3",
     "unified": "^11.0.5"
   },
   "devDependencies": {
@@ -63,7 +63,7 @@
     "pagefind": "^1.4.0",
     "prettier": "3.6.2",
     "prettier-plugin-astro": "0.14.1",
-    "sass-embedded": "^1.93.0",
+    "sass-embedded": "^1.93.2",
     "unist-util-visit": "^5.0.0"
   }
 }
