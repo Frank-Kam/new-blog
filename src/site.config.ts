@@ -42,7 +42,7 @@ const config: SiteConfig = {
     },
     {
       name: 'Contact',
-      url: 'https://frankk.uk',
+      url: 'https://frk.tw',
       external: true,
     },
   ],
@@ -152,7 +152,7 @@ const config: SiteConfig = {
   // Social links to display in the footer.
   socialLinks: {
     github: 'https://github.com/Frank-Kam',
-    email: 'mail@frankk.uk',
+    email: 'mail@frk.tw',
     rss: true, // Set to true to include an RSS feed link in the footer
   },
   // Configuration for Giscus comments.
