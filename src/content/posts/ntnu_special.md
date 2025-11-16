@@ -3,6 +3,7 @@ title: "臺師大資安組特選心得"
 description: "臺師大 115 年資安組特選心得"
 published: 2025-11-16
 draft: true
+series: '特選'
 tags: ['Life']
 ---
 其他學校的心得可以到 [/posts/special](/posts/special) 找到
