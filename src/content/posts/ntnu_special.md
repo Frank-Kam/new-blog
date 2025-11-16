@@ -24,5 +24,6 @@ tags: ['Life']
 ## Q3
 題目：有人錄了電腦的網路封包，儲存成`network_traffic.txt`檔案，請敘述如何尋找送往`10.9.0.8`這個網站的賬號密碼  
 答案：`cat network_traffic.txt | grep '10.9.0.8'`，即可尋找前往`10.9.0.8`的封包，視情況增加 grep 參數如：`http://, password, pwd`等來找到賬號密碼。
+
 # 面試
 # 總結
