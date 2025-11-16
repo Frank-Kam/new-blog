@@ -151,10 +151,18 @@ let generatedCss: string = cssLines.join('\n')
       href={new URL('rss.xml', Astro.site)}
     />
     <title>{pageTitle}</title>
+    <script is:inline>
+      ;(function () {
+        try {
+          const theme = localStorage.getItem('data-theme') || 'nord'
+          document.documentElement.setAttribute('data-theme', theme)
+        } catch (e) {}
+      })()
+    </script>
     <style is:global define:vars={baseCssVars}></style>
-    <style is:inline set:html={generatedCss}></style>
     {themeMode === 'light-dark-auto' && <LightDarkAutoThemeLoader />}
     {themeMode === 'select' && <SelectThemeLoader />}
+    <style is:inline set:html={generatedCss}></style>
   </head>
   <body class="w-full h-full m-0 bg-background text-foreground">
     <div
