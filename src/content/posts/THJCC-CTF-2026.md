@@ -11,16 +11,16 @@ tags: ['CTF', 'THJCC', 'Cyber-Sec']
 以上改自張家兄弟神片早餐吃到飽，誠如各位所見我當上總召了，這故事留到都 2026 年 2 月了還沒寫的 2025 年度總結來說。
   
 題目原始碼：[https://github.com/Frank-Kam/THJCC-CTF-2026](https://github.com/Frank-Kam/THJCC-CTF-2026)  
-# Welcome to THJCC CTF (Welcome)  
-## 題敘
+## Welcome to THJCC CTF (Welcome)  
+### 題敘
 ```
 In this CTF, unless otherwise specified, the flag format is THJCC{.\*}  
 ```
 我們直接按 F12 然後重新整理，找到題目的封包然後搜尋 `THJCC{` 就可以得到 Flag  
 `THJCC{We1c0m3-tO-tHjcC-c7F_2O26}`  
 
-# Las Vegas (Web)
-## 題敘
+## Las Vegas (Web)
+### 題敘
 ```
 Lucky 7 7 7  
 ```
@@ -31,8 +31,8 @@ curl -X POST http://chal.thjcc.org:14514/?n=777
 得到  
 `^THJCC\{LUcKy_sEVen_[0-9a-f]{16}\}$` 
 
-# Ear👂(Web)
-## 題敘
+## Ear👂(Web)
+### 題敘
 ```
 [CWE-698](https://cwe.mitre.org/data/definitions/698.html)
 > Author: Frank
@@ -78,8 +78,8 @@ curl http://chal.thjcc.org:1234/admin.php
 </html
 ```
 
-# Happy Cat Jail
-## 題敘
+## Happy Cat Jail
+### 題敘
 ```
 meow ?
 ```
@@ -118,8 +118,8 @@ _ = unsafe.Sizeof(0)
   
 btw 我從去年 HITCON ExCTF 結束的時候就有 Go jail 這個想法了，到 2 月初才把程式寫出來，原本打算放白箱的但~~拿去給很多 AI 試都可以 One shot~~ 所以就只留 unsafe 這個提示。~~下一次 NHNC 可能會有 Perl jail 還是 Java jail 之類奇怪的 jail 出現~~
 
-# IMAGE? (Misc)
-## 題敘
+## IMAGE? (Misc)
+### 題敘
 ```
 Check the hex of this image
 ```
@@ -137,8 +137,8 @@ warning [IMAGE_Q.zip]:  3297649 extra bytes at beginning or within zipfile
 可以看到裡面有兩個檔案，點開 `F3.png` 就有 Flag 了
 `THJCC{fRierEN-SO_cUTe:)}`
 
-# TV (Forensics)
-## 題敘
+## TV (Forensics)
+### 題敘
 ```
 Amazing Sound
 ```
@@ -147,9 +147,9 @@ Amazing Sound
 其實這蠻明顯是 SSTV 的，GPT 照題目名稱和檔案類型也直接猜中，編碼是 Martin M1，使用 [Robot36](https://play.google.com/store/apps/details?id=xdsopl.robot36&hl=zh_TW)可以成功解碼。
 ![](/posts/images/THJCC-CTF-2026/SSTV.png)
 
-# Metro (Misc)
+## Metro (Misc)
 
-## 題敘
+### 題敘
 ```
 I took this photo at a MRT station in a certain city/county in Taiwan. Please identify which station it is and which floor it was taken on.
 
@@ -164,8 +164,8 @@ Example: If the station code for Taipei Metro's Shuanglian Station is R12, and t
 樓層的部分[桃園捷運官網](https://www.tymetro.com.tw/tymetro-new/upload/station/20250507084749_1.png)有。  
 `THJCC{A10-3F}`
 
-# YRSK (Misc)
-## 題敘
+## YRSK (Misc)
+### 題敘
 ```
 Notice RIFF ChunkSize and size limits
 Flag format: Case Insensitive, no spaces
@@ -196,8 +196,8 @@ print("Done")
   
 btw 外面那層的音樂其實是電子專輯，音質非常好歐。
 
-# ExBaby Shark Master (Forensics)
-## 題敘
+## ExBaby Shark Master (Forensics)
+### 題敘
 ```
 Just Search  
 ```
@@ -210,8 +210,8 @@ strings THJCC_ExBaby-Shark-Master.pcapng | grep THJCC{
   
 ~~有點後悔出這題~~
 
-# Chat
-## 題敘
+## Chat
+### 題敘
 ```
 這是新來的 THJCC 客服機器人，但他好像有一些「祕密」……  
 This is the new THJCC customer service bot... but it seems like he’s hiding a little "secret"  
@@ -219,7 +219,7 @@ This is the new THJCC customer service bot... but it seems like he’s hiding a 
 [提示詞](https://github.com/Frank-Kam/THJCC-CTF-2026/tree/main/AI/Chat) (使用 GPT 5.2 Auto 模型)
 這題其實蠻吃運氣的，只能看我們工人解的[參考](https://discord.com/channels/1214908408239620156/1214945609639923792/1475126588809941175)
   
-# 總結
+## 總結
 我覺得這次當工人的氛圍蠻愉快的，沒有遇到什麼會爭執的事情，~~靶機也沒有像 NHNC 的慘況~~  
 感謝所有參賽者和工作人員。  
   
