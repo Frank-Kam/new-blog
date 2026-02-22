@@ -160,7 +160,7 @@ Example: If the station code for Taipei Metro's Shuanglian Station is R12, and t
 
 ![](/posts/images/THJCC-CTF-2026/Metro.jpg)  
 把圖片拉到過曝可以發現後面的第二月臺的紫色貼紙，臺灣使用紫色系的捷運系統只有桃園捷運了，在 OSINT 照片的時候如果有 Ubike 在附近會非常好用，剛好這張照片有拍到，我們可以去 [Ubike 站點地圖](https://www.youbike.com.tw/region/main/stations/) 尋找 `」` 這種路口和捷運站的相對位置一樣的站，~~桃園捷運才幾站一下找就有了~~
-![](/posts/images/THJCC-CTF-2026/Metro-2.jpg)  
+![](/posts/images/THJCC-CTF-2026/Metro-2.png)  
 樓層的部分[桃園捷運官網](https://www.tymetro.com.tw/tymetro-new/upload/station/20250507084749_1.png)有。  
 `THJCC{A10-3F}`
 
