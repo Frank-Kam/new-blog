@@ -144,7 +144,7 @@ Amazing Sound
 ```
 
 [檔案](https://github.com/Frank-Kam/THJCC-CTF-2026/tree/main/Forensics/TV)
-其實這蠻明顯是 SSTV 的，GPT 照題目名稱和檔案類型也直接猜中，編碼是 Martin M1，使用 [Robot36](https://play.google.com/store/apps/details?id=xdsopl.robot36&hl=zh_TW)可以成功解碼。
+其實這蠻明顯是 SSTV 的，GPT 照題目名稱和檔案類型也直接猜中，編碼是 Martin M1，使用 [Robot36](https://play.google.com/store/apps/details?id=xdsopl.robot36&hl=zh_TW) 可以成功解碼。
 ![](/posts/images/THJCC-CTF-2026/SSTV.png)
 
 ## Metro (Misc)
